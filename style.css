@@ -1,0 +1,96 @@
+body{
+    background: #000;
+}
+.elefante{
+    width: 800px;
+    margin: 50px auto;
+
+}
+.elefante svg{
+    
+    width: 100%;
+    height: 100%;
+    stroke-dashoffset:1000 ;
+    stroke-dasharray:1000 ;
+    animation: svganimation 8s ease-in-out forwards infinite ;
+}
+
+@keyframes svganimation{
+    0%{
+        stroke-dashoffset: 1000;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+.circle1{
+    width: 800px;
+    margin: 50px auto;
+
+}
+.circle1 svg{
+    
+    width: 100%;
+    height: 100%;
+    stroke:#FF2F4F ;
+    stroke-dashoffset:1000 ;
+    stroke-dasharray:1000 ;
+    animation: svganimation 8s ease-in-out forwards infinite ;
+}
+
+.circle2{
+    width: 800px;
+    margin: 50px auto;
+   
+
+}
+.circle2 svg{
+    
+    width: 100%;
+    height: 100%;
+    stroke:#FF2F4F ;
+    stroke-dashoffset:1000 ;
+    stroke-dasharray:1000 ;
+    animation: svganimation 8s ease-in-out forwards infinite ;
+}
+
+@keyframes svganimation{
+    0%{
+        stroke-dashoffset: 1000;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+a{
+    color: rgb(56, 76, 94);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    text-decoration: blink;
+}
+.linktexto{
+    color:rgb(56, 76, 94);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover{
+    color:#FF2F4F;
+}
+h1{
+    color:rgb(56, 76, 94); 
+}
+p{
+    color:rgb(56, 76, 94);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    width: 800px;
+}
+.lateraltext{
+    float: right;
+}
